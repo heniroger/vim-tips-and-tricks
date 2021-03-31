@@ -29,9 +29,18 @@ Normal mode : **:q**
 
 - Aller au debut du fichier \
 Normal mode : **gg** ou **1G** 
-- Aller à la fin du fichier
+- Aller à la fin du fichier \
+Normal mode : **G** 
 - Retourner à la ligne precédent \
-Normal mode : **CTRL+O** ou **CTRL+I** (la dernière et à verifier) 
+Normal mode : **CTRL+O** ou **CTRL+I** (CTRL+I pour le window precedent) \
+Une autre astuce : \
+Normal mode : **mx** : Marquer tout d'abord la ligne que vous voulez retourner et après cela, allez à n'importe quel ligne. \
+Normal mode : **'x** : Retouner à la ligne que vous avez marqué precedemment \
+Normal mode : **backquote+x**(ALTGR+7 et x) : Retouner à la ligne que vous avez marqué precedemment à l'emplacement exacte du curseur
+
+- Retourner à la ligne edité precedent et suivant \
+Normal mode : **g;** : modification precedent\
+Normal mode : **g,** modification suivant
 - Aller à la ligne x du fichier \
 Normal mode : **5G** : Aller à la ligne 5(5 est variable selon la ligne exisant) 
 
