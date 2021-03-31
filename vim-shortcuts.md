@@ -39,5 +39,13 @@ Normal mode : **:q**
 - Couper les mots de x à y
 - Coller 
 - Selectionner la ligne x à y et copier
+- Selectionner la ligne x à y et couper
+- Selectionner la ligne xa à xb et copier
+- Selectionner la ligne xa à xb et couper
+- Selectionner la ligne xa à xb et entoure de accolade/quote/double quote/parenthese
+- Rechercher
+- Rechercher et Remplacer un mot
+- Rechercher et remplacer tout
+- Lancer un commande externe
 ### Niveau 2 : Buffer, Window, Tab
 
