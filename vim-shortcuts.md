@@ -31,6 +31,11 @@ Normal mode : **:q**
 - Aller à la fin de la ligne
 - Retourner à la ligne precédent
 - Aller à la ligne x et retourner à ligne y
+- Aller au debut du texte 
+- Aller à la fin du texte
+- Aller à xa du texte
+- Aller au prochain mot 
+- Aller au mot precédent
 - Copier la ligne
 - Copier le mot
 - Copier les mots de x à y
