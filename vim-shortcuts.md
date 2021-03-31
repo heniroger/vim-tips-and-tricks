@@ -64,16 +64,31 @@ Normal mode : **e** (On peut ajouter des chiffres [**xe**] comme **3e** pour ava
 - Avancer/Reculer de Phrase par phrase \
 Normal mode : **(** : Reculer \
 Normal mode : **)**  : Avancer 
+
 - Avancer/Reculer de Paragraphe par paragraphe \
 Normal mode : **{** : Reculer \
-Normal mode : **}**  : Avancer 
-- Copier la ligne
-- Copier le mot
-- Copier les mots de x à y
+Normal mode : **}**  : Avancer
+
+- Copier la ligne \
+Normal mode : **yy** : y comme yank \
+Normal mode : **y%** ?????????
+- Copier le mot \
+Normal mode : **yiw**
+- Copier les mots de x à y \
+Normal mode : **3yy** : Copier 3 lignes \
+Normal mode : **y^** : Copier depuis le curseur jusqu'au debut de la ligne \
+Normal mode : **y$** : Copier depuis le curseur jusqu'à la fin de la ligne
 - Couper la ligne
-- Couper le mot
-- Couper les mots de x à y
-- Coller 
+Normal mode : **dd** \
+- Couper le mot \
+Normal mode : **diw**
+- Couper les mots de x à y \
+Normal mode : **3dd** : Couper 3 lignes  \
+Normal mode : **d^** : Couper depuis le curseur jusqu'au debut de la ligne \
+Normal mode : **d$** : Coupier depuis le curseur jusqu'à la fin de la ligne
+- Coller \
+Normal mode : **p** :
+
 - Selectionner la ligne x à y et copier
 - Selectionner la ligne x à y et couper
 - Selectionner la ligne xa à xb et copier
@@ -83,5 +98,14 @@ Normal mode : **}**  : Avancer
 - Rechercher et Remplacer un mot
 - Rechercher et remplacer tout
 - Lancer un commande externe
+
+- Autres commande \
+Normal mode : **''** \
+Normal mode : **backquote+backquote** \
+Normal mode : **'.** \
+Normal mode : **%** \
+Normal mode : **|** \
+Normal mode : **15|** 
+
 ### Niveau 2 : Buffer, Window, Tab
 
