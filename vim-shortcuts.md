@@ -27,13 +27,19 @@ Normal mode : **:q!**
   - Quitter si aucune modification \
 Normal mode : **:q**
 
-- Aller au debut du fichier  
+- Aller au debut du fichier \
+Normal mode : **gg** ou **1G** 
 - Aller à la fin du fichier
-- Retourner à la ligne precédent
-- Aller à la ligne x et retourner à ligne y
+- Retourner à la ligne precédent \
+Normal mode : **CTRL+O** ou **CTRL+I** (la dernière et à verifier) 
+- Aller à la ligne x du fichier \
+Normal mode : **5G** : Aller à la ligne 5(5 est variable selon la ligne exisant) 
+
 - Aller au debut de la ligne \
 Normal mode : **0** \
-Normal mode : **^** (s'il y a un espace vide au debut de la ligne [espace ou tab] aller au debut premier mot )
+Normal mode : **^** (s'il y a un espace vide au debut de la ligne [espace ou tab] aller au debut premier mot ) \
+Normal mode : **_** (s'il y a un espace vide au debut de la ligne [espace ou tab] aller au debut premier mot )
+
 - Aller à la fin de la ligne \
 Normal mode : **$** \
 Normal mode : **g_** (s'il y a un espace vide à la fin de la ligne [espace ou tab] aller à la fin dernier mot )
@@ -45,6 +51,13 @@ Insert mode : **CTRL+LEFT** \
 Normal mode : **b** (On peut ajouter des chiffres [**xb**] comme **3b** pour reculer de **3 mots**)
 - Aller à la fin du mot \
 Normal mode : **e** (On peut ajouter des chiffres [**xe**] comme **3e** pour avancer de **3 mots**)
+
+- Avancer/Reculer de Phrase par phrase \
+Normal mode : **(** : Reculer \
+Normal mode : **)**  : Avancer 
+- Avancer/Reculer de Paragraphe par paragraphe \
+Normal mode : **{** : Reculer \
+Normal mode : **}**  : Avancer 
 - Copier la ligne
 - Copier le mot
 - Copier les mots de x à y
