@@ -110,13 +110,15 @@ Normal mode : **15|**
 ### Niveau 2 : Buffer, Window, Tab
 - **Un ou plusieurs windows** peut afficher **un seul buffer**( ~fichier~ ).
 - **Un buffer**  peut etre **detacher des windows**
+- **Un tab** peut contenir **un à plusieurs windows**
+
 #### Windows
 - Nouveau  windows 
 **:new** : Creer un nouveau  windows horizontal \
 **:vnew** : Creer un nouveau  windows vertical \
 #### Buffer 
 - Nouveau buffer \
-**:edit path_fichier** : Ouvrir un fichier et automatiquement ***Créer un nouveau buffer*** \
+**:edit path_fichier**  ou **:e path_fichier** : Ouvrir un fichier et automatiquement ***Créer un nouveau buffer*** \
 Note : Lorsque vous editer un fichier, vous devez enregistrer pour editer un autre fichier. \
 Si vous ne voulez pas cela,vous pouvez le desactiver par cette commande  **:set hidden** 
 - Lister buffer \
@@ -128,10 +130,22 @@ Si vous ne voulez pas cela,vous pouvez le desactiver par cette commande  **:set 
 3  h    "fichier3.txt"   Line 10
 4  #h   "fichier4.txt"   Line 1
 ```
+**1** :  Buffer numero 1 \
 **%** : *current*, Buffer dans Windows courant \
 **a** : *active*, Etat de buffer : active et charger dans windows \
 **h** : *hidden*, Etat de buffer : caché \
 **#** : *alternate* Buffer chargé au dessous de Buffer dans Windows courant.
+- Naviguer sur les buffers \
+**:buffer N** ou **:b N** : Exemple :buffer 5 , Acceder au buffer numero 5 \
+**:bnext** ou **:bn** : Afficher le buffer suivant \
+**:bprevious** ou **:bp** : Afficher le  buffer precedent \
+**:bfirst** ou **:bf** : Afficher le premier buffer \
+**:blast** ou **:bl** : Afficher le dernier buffer \
+**:ball** ou **:b a** : Afficher tous les buffers 
+- Suppression buffer
+**:bdelete arg** ou **:bd arg** supprimer un buffer avec *arg* passer en parametre. *arg* peut etre **aucun ou un ou plusiers numero du buffer ou nom fichier**  \
+Exemple : *:bd* , *:bd 1 2 3* , *:bd test1.txt test2.txt* \
+**:1,3bd** : Supprimer les buffers numero 1 jusqu'au numero 3
 
 
 ### Niveau 3 : Command mapping et configuration
