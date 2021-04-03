@@ -108,4 +108,38 @@ Normal mode : **|** \
 Normal mode : **15|** 
 
 ### Niveau 2 : Buffer, Window, Tab
+- **Un ou plusieurs windows** peut afficher **un seul buffer**( ~fichier~ ).
+- **Un buffer**  peut etre **detacher des windows**
+#### Windows
+- Nouveau  windows 
+**:new** : Creer un nouveau  windows horizontal \
+**:vnew** : Creer un nouveau  windows vertical \
+#### Buffer 
+- Nouveau buffer \
+**:edit path_fichier** : Ouvrir un fichier et automatiquement ***Créer un nouveau buffer*** \
+Note : Lorsque vous editer un fichier, vous devez enregistrer pour editer un autre fichier. \
+Si vous ne voulez pas cela,vous pouvez le desactiver par cette commande  **:set hidden** 
+- Lister buffer \
+**:buffers** ou **:ls** 
+- Indicateur dans la liste des buffers
+```
+1  h    "fichier1.txt"   Line 1 
+2  %a   "fichier2.txt"   Line 14
+3  h    "fichier3.txt"   Line 10
+4  #h   "fichier4.txt"   Line 1
+```
+**%** : *current*, Buffer dans Windows courant \
+**a** : *active*, Etat de buffer : active et charger dans windows \
+**h** : *hidden*, Etat de buffer : caché \
+**#** : *alternate* Buffer chargé au dessous de Buffer dans Windows courant.
 
+
+### Niveau 3 : Command mapping et configuration
+
+### Niveau 4 : Les modes
+    Insert
+    Normal
+    Visual
+    Select
+    Command line
+    Ex mode
