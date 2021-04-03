@@ -90,7 +90,12 @@ Normal mode : **d$** : Coupier depuis le curseur jusqu'à la fin de la ligne
 Normal mode : **p** :
 
 - Selectionner la ligne x à y et copier
+Visual Mode : **Touche de direction** pour selectionner et **y** pour copier
+Normal Mode : **p** pour coller
 - Selectionner la ligne x à y et couper
+Visual Mode : **Touche de direction** pour selectionner et **d** pour couper
+Normal Mode : **p** pour coller
+
 - Selectionner la ligne xa à xb et copier
 - Selectionner la ligne xa à xb et couper
 - Selectionner la ligne xa à xb et entoure de accolade/quote/double quote/parenthese
@@ -116,6 +121,22 @@ Normal mode : **15|**
 - Nouveau  windows 
 **:new** : Creer un nouveau  windows horizontal \
 **:vnew** : Creer un nouveau  windows vertical \
+```
+ :e filename      - edit another file
+ :split filename  - split window and load another file
+ ctrl-w up arrow  - move cursor up a window
+ ctrl-w ctrl-w    - move cursor to another window (cycle)
+ ctrl-w_          - maximize current window
+ ctrl-w=          - make all equal size
+ 10 ctrl-w+       - increase window size by 10 lines
+ :vsplit file     - vertical split
+ :sview file      - same as split, but readonly
+ :hide            - close current window
+ :only            - keep only this window open
+ :ls              - show current buffers
+ :b 2             - open buffer #2 in this window
+
+```
 #### Buffer 
 - Nouveau buffer \
 **:edit path_fichier**  ou **:e path_fichier** : Ouvrir un fichier et automatiquement ***Créer un nouveau buffer*** \
