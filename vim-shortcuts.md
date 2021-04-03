@@ -118,7 +118,7 @@ Normal mode : **15|**
 - **Un tab** peut contenir **un à plusieurs windows**
 
 #### Windows
-- Nouveau  windows 
+- Nouveau  windows \
 **:new** : Creer un nouveau  windows horizontal \
 **:vnew** : Creer un nouveau  windows vertical \
 ```
@@ -168,6 +168,8 @@ Si vous ne voulez pas cela,vous pouvez le desactiver par cette commande  **:set 
 Exemple : *:bd* , *:bd 1 2 3* , *:bd test1.txt test2.txt* \
 **:1,3bd** : Supprimer les buffers numero 1 jusqu'au numero 3
 
+#### Tab
+https://vim.fandom.com/wiki/Using_tab_pages
 
 ### Niveau 3 : Command mapping et configuration
 
@@ -178,3 +180,59 @@ Exemple : *:bd* , *:bd 1 2 3* , *:bd test1.txt test2.txt* \
     Select
     Command line
     Ex mode
+    
+ ### TO Be Filetered
+ ```
+ 
+
+Press V to switch to VISUAL LINE mode and highlight the lines you want to indent by pressing j. Then press > to indent them. So the complete command would be Vjjj>.
+
+Alternatively, put your cursor on the <script> tag and use 4>> to indent four lines.
+
+ -------
+2662
+
+Use the > command. To indent five lines, 5>>. To mark a block of lines and indent it, Vjj> to indent three lines (Vim only). To indent a curly-braces block, put your cursor on one of the curly braces and use >% or from anywhere inside block use >iB.
+
+If you’re copying blocks of text around and need to align the indent of a block in its new location, use ]p instead of just p. This aligns the pasted block with the surrounding text.
+
+Also, the shiftwidth setting allows you to control how many spaces to indent.
+------
+Basic commands
+
+In normal mode, type >> to indent the current line, or << to unindent. Each command can be used with a count. The operators > and < do the same for motions, text objects and visual selections. For all commands, pressing . repeats the operation.
+
+For example, typing 5>>.. shifts five lines to the right, and then repeats the operation twice so that the five lines are shifted three times.
+
+In insert mode, Ctrl-T indents the current line, and Ctrl-D unindents.
+
+When indenting or unindenting, lines are shifted one 'shiftwidth' to the right or left.
+Basic examples
+
+To adjust the indent on three lines:
+
+    Put the cursor anywhere in the first line.
+    Press V then jj to visually select the three lines.
+    Press > to indent (shift text one 'shiftwidth' to the right), or press < to shift left.
+    Press . to repeat the indent, or u to undo if you have shifted too far.
+    Type gv if you want to reselect the lines (not needed).
+
+Alternatively, if you know that you want to adjust three lines, you can simply:
+
+    Type 3>> to shift right or 3<< to shift left.
+
+Or:
+
+    Type >2j to shift right or <2j to shift left.
+
+As mentioned above, the > and < commands combine with arbitrary Vim movements and text objects. For example, >} to indent from the cursor to the next blank line, or <aB to un-indent the current C-like {...} "block" structure. See indent a code block.
+More commands
+
+In normal mode, type == to automatically indent the current line according to your indentation settings. This command can be used with a count. The = command does the same, but for motions, text objects and visual selections.
+
+To reindent an entire buffer, use gg=G.
+
+To reindent many files, the argument list can be used:
+
+
+ ```
