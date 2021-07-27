@@ -6,6 +6,7 @@ NerdTree
 Vdebug
 vim-gitgutter # show line you add in git
 Vim Fugitive # git
+Fzf vim # file finder
 Ctag
 
 Vim surround :(
