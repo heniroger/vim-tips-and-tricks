@@ -4,7 +4,7 @@
 $  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 - Add following configuration to .vimrc  
-```sh
+```shell
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -58,4 +58,19 @@ Launch vim and run *:PluginInstall*
 
 To install from command line:  *vim +PluginInstall +qall*
 
+
 - (optional) For those using the fish shell: *add set shell=/bin/bash to your .vimrc*
+
+# List of Plugin path
+```yaml
+Plugin 'prettier/vim-prettier'
+Plugin 'preservim/nerdtree'
+Plugin 'vim-vdebug/vdebug'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'universal-ctags/ctags'
+
+```
