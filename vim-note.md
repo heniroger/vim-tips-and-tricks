@@ -7,6 +7,7 @@ Vdebug
 vim-gitgutter # show line you add in git
 Vim Fugitive # git
 Fzf vim # file finder
+Tagbar
 Ctag
 
 Vim surround :(
