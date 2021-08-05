@@ -137,6 +137,7 @@ Normal mode : **15|**
  :b 2             - open buffer #2 in this window
 
 ```
+See also : https://vim.rtorr.com/
 #### Buffer 
 - Nouveau buffer \
 **:edit path_fichier**  ou **:e path_fichier** : Ouvrir un fichier et automatiquement ***Créer un nouveau buffer*** \
