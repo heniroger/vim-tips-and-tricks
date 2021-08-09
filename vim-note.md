@@ -26,3 +26,8 @@ $ ctags -R --PHP-kinds=cfi -f tags.vendors vendor
 # project tags file (index only src, and save tags in ./tags; AutoTags will update this one)
 $ ctags -R --PHP-kinds=cfi src
 ```
+
+## CTags Shortcuts
+
+- CTRL-N and CTRL-P : Auto complete
+- CTRL-] : Auto Complete 
