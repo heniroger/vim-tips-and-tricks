@@ -244,5 +244,5 @@ To reindent many files, the argument list can be used:
  
  ##  Quelques Astuces 
  ### Copier Depuis Vim à un autre environnement
-- Visual Mode puis selectionner le text et taper : **"+y ( le " suivi de + et y) ** 
+- Visual Mode puis selectionner le text et taper : "+y ( le " suivi de + et y) 
  
