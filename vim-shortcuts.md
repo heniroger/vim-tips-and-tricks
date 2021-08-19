@@ -241,3 +241,8 @@ To reindent many files, the argument list can be used:
  ### Niveau 5 : Creation des raccourci avec map, noremap...
  https://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping \
  https://vi.stackexchange.com/questions/2089/what-are-the-differences-between-the-map-noremap-abbrev-and-noreabbrev-command
+ 
+ ##  Quelques Astuces 
+ ### Copier Depuis Vim à un autre environnement
+- Visual Mode puis selectionner le text et taper : **"+y ( le " suivi de + et y) ** 
+ 
