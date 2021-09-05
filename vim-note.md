@@ -31,3 +31,22 @@ $ ctags -R --PHP-kinds=cfi src
 
 - CTRL-N and CTRL-P : Auto complete
 - CTRL-] : Auto Complete 
+
+# Tmux shortcuts
+
+- Leader : Ctrl-B
+
+- Leader+W : Select prompt Tab or windows 
+- Leader+d : Detach session
+- Leader+D : Detach session : With Select prompt
+- Leader+$ : Rename session
+- Leader+) : Next session
+- Leader+( : Preview session
+
+- Leader+! : Break pane
+
+- Leader+c : create new tab
+- Leader+C : create session
+- 
+- Leader+" : split window
+- Leader+% : split window horizontally
