@@ -34,8 +34,8 @@ $ ctags -R --PHP-kinds=cfi src
 
 # Tmux shortcuts
 
-Client or session : has one or multiple windows
-Window :  has one or multiple  splited pane 
+Client or session : has one or multiple windows \
+Window :  has one or multiple  splited pane \
 Pane : by default : default bash prompt in your terminal
 
 - Leader : Ctrl-B
