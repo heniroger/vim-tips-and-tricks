@@ -58,7 +58,11 @@ Pane : by default : default bash prompt in your terminal
 - Leader+x : kill Pane
 - Leader+X : kill Session
 
-- Leader+z : Resize pane to One (switch split)  
+- Leader+z : Resize pane to One (switch split) 
+- Leader+R : Reload conf
+- Leader+r : Refresh pane  
+ 
+ 
 
 
 
