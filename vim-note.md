@@ -51,3 +51,5 @@ $ ctags -R --PHP-kinds=cfi src
 - Leader+" : split window horizontally
 - Leader+% : split window 
 - Leader+& : kill window
+- Leader+x : kill Pane
+- Leader+X : kill Session
