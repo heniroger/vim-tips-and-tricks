@@ -48,5 +48,6 @@ $ ctags -R --PHP-kinds=cfi src
 - Leader+c : create new tab
 - Leader+C : create session
 
-- Leader+" : split window
-- Leader+% : split window horizontally
+- Leader+" : split window horizontally
+- Leader+% : split window 
+- Leader+& : kill windows
