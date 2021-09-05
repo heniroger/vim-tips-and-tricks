@@ -53,3 +53,8 @@ $ ctags -R --PHP-kinds=cfi src
 - Leader+& : kill window
 - Leader+x : kill Pane
 - Leader+X : kill Session
+
+- Leader+z : Resize pane to One (switch split)  
+
+
+
