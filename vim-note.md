@@ -40,14 +40,14 @@ $ ctags -R --PHP-kinds=cfi src
 - Leader+d : Detach session
 - Leader+D : Detach session : With Select prompt
 - Leader+$ : Rename session
-- Leader+) : Next session
-- Leader+( : Preview session
+- Leader+) : Next session : switch client
+- Leader+( : Preview session : switch client
 
 - Leader+! : Break pane
 
 - Leader+c : create new tab
-- Leader+C : create session
+- Leader+C : create session : new client
 
 - Leader+" : split window horizontally
 - Leader+% : split window 
-- Leader+& : kill windows
+- Leader+& : kill window
